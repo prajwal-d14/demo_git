@@ -9,7 +9,7 @@ pipeline {
         stage('SCM Checkout') {
             agent { label 'compile' }
             steps {
-                git branch: 'main', url: 'https://github.com/prajwal-d14/java-project.git'
+                git branch: 'main', url: 'https://github.com/prajwal-d14/demo_git.git'
             }
         }
 
